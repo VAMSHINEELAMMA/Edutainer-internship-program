@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Book Your Tickets</title>
+    <style>
+        body {
+            background-color: #fde3c4;
+            /* light peach background */
+            font-family: "Times New Roman", serif;
+            margin: 40px;
+        }
+
+        nav {
+            background-color: #f1bb90;
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .navbar {
+            list-style-type: none;
+            /* remove numbers */
+            display: flex;
+            /* horizontal layout */
+            justify-content: center;
+            gap: 30px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .navbar li a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1 style="text-align: center;">Book you tickets now!</h1>
+        <figure>
+        <img src="data:image/jpeg;base64,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" alt="Airplane Image" style="display: block; margin: 0 auto; max-width: 100%; height: auto";alt="Airplane Image",title="Airplane Image">
+        <figcaption style="text-align: center; font-style: italic; color: #555;">Fly with us and explore the world!</figcaption>
+        </figure> 
+        <details>
+            <summary style="font-weight: bold; cursor: pointer;">Why Choose Us?</summary>
+            <p style="margin-left: 20px;">We offer the best prices, excellent customer service, and a wide range of destinations. Book with us for a seamless travel experience!</p>
+            <input type="radio" name="ins">I want to receive updates and special offers from our airline.<br>
+            <input type="radio" name="ins">I agree to the terms and conditions of booking with our airline.<br>
+        </details>  
+        <dl>Hotels Booking...
+            <dd>Taj Hotels</dd>
+            <dd>Oberoi Hotels</dd>
+            <dd>ITC Hotels</dd> 
+            <dd>Radisson Hotels</dd>
+            <dd>Marriott Hotels</dd>
+        </dl>
+        <nav>
+        <ol class="navbar">
+            <li><a href="#">Delhi</a></li>
+            <li><a href="#">Mumbai</a></li>
+            <li><a href="#">Bangalore</a></li>
+            <li><a href="#">Hyderabad</a></li>
+            <li><a href="#">Chennai</a></li>
+        </ol>
+        </nav>
+        <div style="background-color: #fff2e6; padding: 20px; border-radius: 10px;">
+            <section>
+                <div
+                    style="text-align: center;border: 1px solid #060514; padding: 10px; border-radius: 5px; margin-left: 2px;">
+                    <h2>Book Your Flight</h2>
+                    <form action="">
+                        Passenger Name: <input type="text" name="name"><br><br>
+                        Passenger Email: <input type="email" name="email"><br><br>
+                        Passenger Phone: <input type="tel" name="phone"><br><br>
+                        passenger Passsword: <input type="password" name="password"><br><br>
+                        Departure City: <input type="text" name="departure"><br><br>
+                        Arrival City: <input type="text" name="arrival"><br><br>
+                        Departure Date: <input type="date" name="departure_date"><br><br>
+                        Return Date: <input type="date" name="return_date"><br><br>
+                        <input type="submit" value="Book Now">
+                    </form>
+                </div>
+            </section>
+            <section <p style="text-align: center;font-family:monospace;">
+                Book and manage flights on the go. Jet off on app-exclusive fares.
+                Enjoy unlimited access to digital content. Travel seamlessly with
+                the Singapore Air mobile app now.
+                </p>
+                <h2>Contact Us!</h2>
+            </section>
+        </div>
+    </main>
+</body>
+
+</html>
