@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body{
+    margin:0.5rem;
+    font-family: monospace;
+    text-align: center;
+}
+nav{
+    border: 2px solid black;
+    border-radius: 2rem;
+    max-width: 600px;
+    margin: 0 auto 1 rem auto;
+    font-size: 3rem;
+    /* 1rem =16px */
+    line-height: 5rem;
+}
+h2{
+    padding: 3rem;
+    background-color: burlywood;
+    border-radius: 2rem 2rem 0 0;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    border-top: 3px solid;
+}
+li a{
+    display: block; 
+}
+li a,
+li a:visited{/*visted is a pseudocalss selector that targets links that have been visited by the user. It allows you to style links differently based on whether they have been clicked or not. */
+    text-decoration: none;
+}
+li a:hover,
+li a.focus{
+    background-color: burlywood;
+    color: blueviolet;
+}
+li:last-child a{
+    border-radius: 0 0 2rem 2rem;
+}

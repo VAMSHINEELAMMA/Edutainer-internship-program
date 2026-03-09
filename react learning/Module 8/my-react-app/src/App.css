@@ -1,0 +1,45 @@
+/* /* Reset root container */
+#root {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Simple spacing */
+h1 {
+  margin-bottom: 15px;
+}
+
+ul {
+  margin-bottom: 15px;
+  padding-left: 20px;
+}
+
+button {
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.container {
+  display: flex;
+  gap: 40px;
+}
+
+.block {
+  border: 1px solid black;
+  padding: 20px;
+  width: 300px;
+}
+table{
+  margin-left: 100px;
+  border:1px solid black;
+}
+th{
+  background-color: rgb(131, 187, 236);
+}
+th,td{
+  border:1px solid black;
+  padding:10px;
+}
+button{
+  background-color: rgb(201, 155, 98);
+}

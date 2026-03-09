@@ -1,0 +1,17 @@
+Child-to-Parent Communication Using Callback Functions in React:-
+
+
+In React, data usually flows from parent component to child component through props. This is called one-way data flow. However, in many real-world applications, a child component also needs to send information back to the parent. React handles this using callback functions.
+
+A callback function is a function created in the parent component and passed to the child component as a prop. The child component can then call this function whenever needed and send data as an argument. This is the standard method for child-to-parent communication in React.
+
+In this assignment, the parent component contains a state variable called message, which stores the data received from the child. The parent also defines a function called receiveDataFromChild. This function takes input data and updates the parent state using setMessage(). Then this function is passed to the child component through props.
+
+The child component receives the function as a prop named sendData. Inside the child component, a button is created. When the button is clicked, a function called handleClick runs. This function calls sendData() and passes a string message to the parent. As soon as the parent receives this data, its state is updated and the message is displayed on the screen.
+
+This example demonstrates the concept of lifting state up. Instead of storing shared data inside the child, the data is managed in the parent component. This makes the application more organized and helps maintain a clear data flow structure. It is especially useful when multiple child components need to share or update the same information.
+
+Through this assignment, I learned how callback functions help connect components in React. I understood that while props are used to send data from parent to child, functions passed as props are used to send data from child to parent. I also learned how state management becomes easier when important data is stored in a common parent component. This concept is widely used in forms, buttons, search filters, and many interactive React applications.
+
+Overall, this assignment improved my understanding of React component communication, state handling, and structured application design.
+make it 3000 words

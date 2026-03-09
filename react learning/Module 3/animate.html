@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {
+        font-family: monospace;
+        margin-left: 50px;
+        margin-right: 50px;
+        padding: 5px;
+    }
+
+    body {
+        background-color: burlywood;
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+
+        100% {
+            opacity: 1;
+        }
+
+    }
+    @keyframes slidebutton{
+        0%{
+            transform: translateX(0);
+        }
+        50%{
+            transform: translateX(100px);
+        }
+        100%{
+            transform: translateX(0);
+        }
+    }
+
+    .fade-in-element {
+        animation: fadeIn 3s ease-in-out;
+        background-color: tomato;
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+    .fade-in-element1{
+        animation: fadeIn 3s ease-in-out;
+        background-color: rgb(206, 155, 146);
+        border: 1px solid black;
+        border-radius: 12px;
+    }
+    .buttonslide{
+        animation: slidebutton 2s ease-in-out infinite;
+    }
+</style>
+
+<body>
+    <h1>@keyframes demo</h1>
+    <div class="fade-in-element">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facilis. Tempora excepturi reprehenderit
+            architecto magnam. Nam ipsa amet reprehenderit facilis inventore earum placeat magni corrupti, velit id
+            omnis nemo unde!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quas debitis impedit facilis, velit
+            repellat, blanditiis vel sapiente vero porro ipsa laborum omnis. Earum, molestias sint commodi voluptatem
+            perspiciatis aperiam.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facilis. Tempora excepturi reprehenderit
+            architecto magnam. Nam ipsa amet reprehenderit facilis inventore earum placeat magni corrupti, velit id
+            omnis nemo unde!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quas debitis impedit facilis, velit
+            repellat, blanditiis vel sapiente vero porro ipsa laborum omnis. Earum, molestias sint commodi voluptatem
+            perspiciatis aperiam.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facilis. Tempora excepturi reprehenderit
+            architecto magnam. Nam ipsa amet reprehenderit facilis inventore earum placeat magni corrupti, velit id
+            omnis nemo unde!</p>
+    </div>
+     <div class="fade-in-element1">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facilis. Tempora excepturi reprehenderit
+            architecto magnam. Nam ipsa amet reprehenderit facilis inventore earum placeat magni corrupti, velit id
+            omnis nemo unde!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quas debitis impedit facilis, velit
+            repellat, blanditiis vel sapiente vero porro ipsa laborum omnis. Earum, molestias sint commodi voluptatem
+            perspiciatis aperiam.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facilis. Tempora excepturi reprehenderit
+            architecto magnam. Nam ipsa amet reprehenderit facilis inventore earum placeat magni corrupti, velit id
+            omnis nemo unde!</p>
+
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam quas debitis impedit facilis, velit
+            repellat, blanditiis vel sapiente vero porro ipsa laborum omnis. Earum, molestias sint commodi voluptatem
+            perspiciatis aperiam.</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, facilis. Tempora excepturi reprehenderit
+            architecto magnam. Nam ipsa amet reprehenderit facilis inventore earum placeat magni corrupti, velit id
+            omnis nemo unde!</p>
+    </div>
+    <button class="buttonslide">Click Me</button>
+</body>
+
+</html>
