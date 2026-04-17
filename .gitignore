@@ -1,0 +1,7 @@
+# Ignore Google service account key
+Assignments and Activities/week 8 assignment and activity/activity/serviceAccountKey.json
+serviceAccountKey.json
+
+# General
+node_modules/
+.env
