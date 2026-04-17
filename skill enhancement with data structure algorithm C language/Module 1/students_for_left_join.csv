@@ -1,0 +1,11 @@
+student_id,name,department,age,gender,marks,city
+101,Alice,CS,20,Female,85,Pune
+102,Bob,IT,21,Male,78,Mumbai
+103,Charlie,ECE,22,Male,92,Delhi
+104,David,MECH,20,Male,70,Chennai
+105,Eve,CS,21,Female,88,Pune
+106,Frank,IT,20,Male,65,Mumbai
+107,Grace,ECE,22,Female,95,Delhi
+108,Heidi,CS,21,Female,72,Pune
+109,Ivan,ART,23,Male,60,Bangalore
+110,Judy,PHY,20,Female,80,Kolkata

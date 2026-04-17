@@ -1,0 +1,5 @@
+student_id,name,department,age,gender,marks,city
+201,John,CS,20,Male,85,Pune
+202,Jane,IT,21,Female,78,Mumbai
+203,Mike,MATH,22,Male,90,Delhi
+204,Sarah,PHY,20,Female,75,Chennai
