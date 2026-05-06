@@ -1,0 +1,21 @@
+Employee ID,Name,TYPE,DEPARTMENT,SALARY,CITY
+A015,Ananth,Temporary,Training,19600,Kolkata
+A014,Bharath,Temporary,Quality,17500,Bangalore
+A016,Chethan,Contract,Human Resource,13800,Delhi
+A006,Daya,Temporary,Production,25000,Noida
+A017,Gautham,Temporary,Sales,16500,Chennai
+A018,Harish,Permanent,Production,14800,Mumbai
+A020,Imran,Permanent,Quality,17400,Kolkata
+A019,Jaganath,Contract,Administration,18500,Delhi
+A011,Kumar,Permanent,Sales,17400,Bangalore
+A013,Lokesh,Contract,Administration,18000,Noida
+A007,Mahesh,Contract,Quality,21000,Chennai
+A003,Prasad,Contract,Marketing,18500,Delhi
+A002,Rajeev,Temporary,Sales,17400,Chennai
+A005,Robert,Temporary,Training,19000,Ahmadabad
+A008,Robin,Temporary,Administration,17500,Hyderabad
+A004,Sunitha,Contract,Human Resource,13500,Kolkata
+A012,Vasanth,Temporary,Marketing,16500,Hyderabad
+A009,Venkatesh,Contract,Sales,18600,Vizag
+A001,Vinaykumar,Permanent,Administration,16500,Mumbai
+A010,Vivek,Permanent,Marketing,22000,Bangalore

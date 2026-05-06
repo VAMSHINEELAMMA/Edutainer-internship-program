@@ -1,0 +1,11 @@
+Student name	Ist test	2nd test	3rd test
+Ravi kumar	90	-41	56
+Kumar RB	10	25	45
+Naveen Raj	75	36	26
+Prasad H P	36	95	36
+Rajesh Jain	45	14	98
+Umesh Jadav	98	25	41
+Lokesh Prasad	65	30	25
+Anand Kumar	25	74	87
+Vivek L M	63	12	26
+Rajeev Prasad	74	85	35
